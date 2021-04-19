@@ -1,0 +1,1481 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "c852cbe4dea09139c172e28bee1f61d420c7c22296b72da9a54d51dcb50118b8": {
+      "address": "0x7D133D32eE5a03bFf7819c7ffEE12c0641Bc017b",
+      "txHash": "0x4cfe90f3365f115e24d8dfa3e1b9a59cb5f777b261a580b0324858f2f51cb25f",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1979_storage)",
+            "src": "openzeppelin/access/AccessControl.sol:59"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/AccessControl.sol:211"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:38"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:40"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:42"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:44"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:45"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:46"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:318"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/token/ERC20/ERC20Burnable.sol:54"
+          },
+          {
+            "contract": "PausableUpgradeSafe",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "openzeppelin/utils/Pausable.sol:27"
+          },
+          {
+            "contract": "PausableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/utils/Pausable.sol:85"
+          },
+          {
+            "contract": "ERC20PausableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/token/ERC20/ERC20Pausable.sol:40"
+          },
+          {
+            "contract": "ERC20PresetMinterPauserUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/presets/ERC20PresetMinterPauser.sol:102"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1979_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeSafe.RoleData)"
+          }
+        }
+      }
+    },
+    "f5b2224001f3f0e94379781ddd7fb1b711c27bdb4a5ce3ae85369ecc064c32aa": {
+      "address": "0x3aFFd2e03963609757235e15CCD3C911aEb1e05e",
+      "txHash": "0x930b47f5b06a34be076215502d6894168e4772fac697a542c632af32f874802c",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "openzeppelin/access/Ownable.sol:19"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/Ownable.sol:79"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PENALTY_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:16"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PLATFORM_FEE_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:17"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "SECONDS_IN_MONTH",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:18"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "emergencyMode",
+            "type": "t_bool",
+            "src": "LockUpPool.sol:20"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "tokenStats",
+            "type": "t_mapping(t_address,t_struct(TokenStats)136_storage)",
+            "src": "LockUpPool.sol:52"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "pools",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "LockUpPool.sol:55"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "userLockUps",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)121_storage))",
+            "src": "LockUpPool.sol:58"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "LockUpPool.sol:304"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "WRNToken",
+            "type": "t_contract(ERC20PresetMinterPauserUpgradeSafe)2811",
+            "src": "WRNRewardPool.sol:12"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_START_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:15"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_PER_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:16"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:17"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:18"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_BOOST",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:19"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "totalMultiplier",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:21"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "wrnStats",
+            "type": "t_mapping(t_address,t_struct(WRNStats)1137_storage)",
+            "src": "WRNRewardPool.sol:34"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "userWRNRewards",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1142_storage))",
+            "src": "WRNRewardPool.sol:37"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "devAddress",
+            "type": "t_address",
+            "src": "WRNRewardPool.sol:40"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "WRNRewardPool.sol:232"
+          }
+        ],
+        "types": {
+          "t_contract(ERC20PresetMinterPauserUpgradeSafe)2811": {
+            "label": "contract ERC20PresetMinterPauserUpgradeSafe"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_struct(WRNStats)1137_storage)": {
+            "label": "mapping(address => struct WRNRewardPool.WRNStats)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1142_storage))": {
+            "label": "mapping(address => mapping(address => struct WRNRewardPool.UserWRNReward))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(TokenStats)136_storage)": {
+            "label": "mapping(address => struct LockUpPool.TokenStats)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)121_storage))": {
+            "label": "mapping(address => mapping(address => struct LockUpPool.UserLockUp))"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "4974130e11795187476b4df9efd6d39aac0fe9f47d3bbbe23c013ec2f8af7dc5": {
+      "address": "0x4f44173848E3E4F8d276065f07613291F15BC119",
+      "txHash": "0x5391f35ea08db7831265b3d8b08835d343c137f5a238f42ce0f8a9fea625edda",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "openzeppelin/access/Ownable.sol:19"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/Ownable.sol:79"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PENALTY_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:16"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PLATFORM_FEE_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:17"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "SECONDS_IN_MONTH",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:18"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "emergencyMode",
+            "type": "t_bool",
+            "src": "LockUpPool.sol:20"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "tokenStats",
+            "type": "t_mapping(t_address,t_struct(TokenStats)136_storage)",
+            "src": "LockUpPool.sol:52"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "pools",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "LockUpPool.sol:55"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "userLockUps",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)121_storage))",
+            "src": "LockUpPool.sol:58"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "LockUpPool.sol:304"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "WRNToken",
+            "type": "t_contract(ERC20PresetMinterPauserUpgradeSafe)2842",
+            "src": "WRNRewardPool.sol:12"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_START_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:15"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_PER_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:16"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:17"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:18"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_BOOST",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:19"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "totalMultiplier",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:21"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "wrnStats",
+            "type": "t_mapping(t_address,t_struct(WRNStats)1152_storage)",
+            "src": "WRNRewardPool.sol:34"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "userWRNRewards",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1157_storage))",
+            "src": "WRNRewardPool.sol:37"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "devAddress",
+            "type": "t_address",
+            "src": "WRNRewardPool.sol:40"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "WRNRewardPool.sol:232"
+          }
+        ],
+        "types": {
+          "t_contract(ERC20PresetMinterPauserUpgradeSafe)2842": {
+            "label": "contract ERC20PresetMinterPauserUpgradeSafe"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_struct(WRNStats)1152_storage)": {
+            "label": "mapping(address => struct WRNRewardPool.WRNStats)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1157_storage))": {
+            "label": "mapping(address => mapping(address => struct WRNRewardPool.UserWRNReward))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(TokenStats)136_storage)": {
+            "label": "mapping(address => struct LockUpPool.TokenStats)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)121_storage))": {
+            "label": "mapping(address => mapping(address => struct LockUpPool.UserLockUp))"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "1059b14d88aad67bb363554980866d1eb550debeee6b8b3995294f42e390ced9": {
+      "address": "0xC2cAfa4198460FcB10b8cD149f8E29c1E6367A0A",
+      "txHash": "0x9e37d2f45e45cf37d1844f601546efb1e21343d31709832d089010d9ac28905e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "openzeppelin/access/Ownable.sol:19"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/Ownable.sol:79"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PENALTY_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:16"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PLATFORM_FEE_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:17"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "SECONDS_IN_MONTH",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:18"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "emergencyMode",
+            "type": "t_bool",
+            "src": "LockUpPool.sol:20"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "tokenStats",
+            "type": "t_mapping(t_address,t_struct(TokenStats)146_storage)",
+            "src": "LockUpPool.sol:57"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "pools",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "LockUpPool.sol:60"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "userLockUps",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)121_storage))",
+            "src": "LockUpPool.sol:63"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "LockUpPool.sol:319"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "WRNToken",
+            "type": "t_contract(ERC20PresetMinterPauserUpgradeSafe)2922",
+            "src": "WRNRewardPool.sol:12"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_START_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:15"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_PER_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:16"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:17"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:18"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_BOOST",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:19"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "totalMultiplier",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:21"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "wrnStats",
+            "type": "t_mapping(t_address,t_struct(WRNStats)1232_storage)",
+            "src": "WRNRewardPool.sol:34"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "userWRNRewards",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1237_storage))",
+            "src": "WRNRewardPool.sol:37"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "devAddress",
+            "type": "t_address",
+            "src": "WRNRewardPool.sol:40"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "WRNRewardPool.sol:232"
+          }
+        ],
+        "types": {
+          "t_contract(ERC20PresetMinterPauserUpgradeSafe)2922": {
+            "label": "contract ERC20PresetMinterPauserUpgradeSafe"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_struct(WRNStats)1232_storage)": {
+            "label": "mapping(address => struct WRNRewardPool.WRNStats)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1237_storage))": {
+            "label": "mapping(address => mapping(address => struct WRNRewardPool.UserWRNReward))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(TokenStats)146_storage)": {
+            "label": "mapping(address => struct LockUpPool.TokenStats)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)121_storage))": {
+            "label": "mapping(address => mapping(address => struct LockUpPool.UserLockUp))"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "0236c37c970548175a40fe52721bc68415db2e347864d721ab9e1669526c9d6e": {
+      "address": "0x77013996BDa18773c11b9d75466f2e6cB0e84736",
+      "txHash": "0x48e6bb6e79483d5adc44374075e10fd365dd364947f4a6627176b23e0a9471b6",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)2016_storage)",
+            "src": "openzeppelin/access/AccessControl.sol:59"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/AccessControl.sol:211"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:38"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:40"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:42"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:44"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:45"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:46"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "openzeppelin/token/ERC20/ERC20.sol:318"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/token/ERC20/ERC20Burnable.sol:54"
+          },
+          {
+            "contract": "PausableUpgradeSafe",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "openzeppelin/utils/Pausable.sol:27"
+          },
+          {
+            "contract": "PausableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/utils/Pausable.sol:85"
+          },
+          {
+            "contract": "ERC20PausableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/token/ERC20/ERC20Pausable.sol:40"
+          },
+          {
+            "contract": "ERC20PresetMinterPauserUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/presets/ERC20PresetMinterPauser.sol:102"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)2016_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeSafe.RoleData)"
+          }
+        }
+      }
+    },
+    "7f87e8d8e036247b6dc020cef4305f51d9308711cc43a43ce7f2a507b3bc591b": {
+      "address": "0x02a24231c2Aff2AC295abF1AEB1395e0c1a80B63",
+      "txHash": "0xb188b6ac4ba6dcec34d662f87370ebf19a8730c232e1019a6a5d613588de1aa6",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "openzeppelin/access/Ownable.sol:19"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/Ownable.sol:79"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PENALTY_RATE",
+            "type": "t_uint8",
+            "src": "LockUpPool.sol:16"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PLATFORM_FEE_RATE",
+            "type": "t_uint8",
+            "src": "LockUpPool.sol:17"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "SECONDS_IN_MONTH",
+            "type": "t_uint24",
+            "src": "LockUpPool.sol:18"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "emergencyMode",
+            "type": "t_bool",
+            "src": "LockUpPool.sol:20"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "tokenStats",
+            "type": "t_mapping(t_address,t_struct(TokenStats)140_storage)",
+            "src": "LockUpPool.sol:54"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "pools",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "LockUpPool.sol:57"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "userLockUps",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)119_storage))",
+            "src": "LockUpPool.sol:60"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "fundAddress",
+            "type": "t_address",
+            "src": "LockUpPool.sol:63"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "LockUpPool.sol:312"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "WRNToken",
+            "type": "t_contract(ERC20PresetMinterPauserUpgradeSafe)2848",
+            "src": "WRNRewardPool.sol:12"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_START_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:15"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:16"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:17"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_PER_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:18"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_BOOST",
+            "type": "t_uint8",
+            "src": "WRNRewardPool.sol:19"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "totalMultiplier",
+            "type": "t_uint16",
+            "src": "WRNRewardPool.sol:21"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "wrnStats",
+            "type": "t_mapping(t_address,t_struct(WRNStats)1159_storage)",
+            "src": "WRNRewardPool.sol:34"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "userWRNRewards",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1164_storage))",
+            "src": "WRNRewardPool.sol:37"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "WRNRewardPool.sol:231"
+          }
+        ],
+        "types": {
+          "t_contract(ERC20PresetMinterPauserUpgradeSafe)2848": {
+            "label": "contract ERC20PresetMinterPauserUpgradeSafe"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          },
+          "t_mapping(t_address,t_struct(WRNStats)1159_storage)": {
+            "label": "mapping(address => struct WRNRewardPool.WRNStats)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1164_storage))": {
+            "label": "mapping(address => mapping(address => struct WRNRewardPool.UserWRNReward))"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint24": {
+            "label": "uint24"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(TokenStats)140_storage)": {
+            "label": "mapping(address => struct LockUpPool.TokenStats)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)119_storage))": {
+            "label": "mapping(address => mapping(address => struct LockUpPool.UserLockUp))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "3af5d63addacec60d8f3f837f6073d15d5bc1aaed2d7b9a959b43b3c3ccebf9f": {
+      "address": "0xBD7B355002163d555bE4482a392A501A3253EBD9",
+      "txHash": "0xd6358f9be09c86b12a6594a667c98de85eec8dce34ebf465a8c5af2691af905f",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "openzeppelin/access/Ownable.sol:19"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/Ownable.sol:79"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PENALTY_RATE",
+            "type": "t_uint8",
+            "src": "LockUpPool.sol:16"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PLATFORM_FEE_RATE",
+            "type": "t_uint8",
+            "src": "LockUpPool.sol:17"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "SECONDS_IN_MONTH",
+            "type": "t_uint24",
+            "src": "LockUpPool.sol:18"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "emergencyMode",
+            "type": "t_bool",
+            "src": "LockUpPool.sol:20"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "tokenStats",
+            "type": "t_mapping(t_address,t_struct(TokenStats)140_storage)",
+            "src": "LockUpPool.sol:54"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "pools",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "LockUpPool.sol:57"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "userLockUps",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)119_storage))",
+            "src": "LockUpPool.sol:60"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "fundAddress",
+            "type": "t_address",
+            "src": "LockUpPool.sol:63"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "LockUpPool.sol:313"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "WRNToken",
+            "type": "t_contract(ERC20PresetMinterPauserUpgradeSafe)2848",
+            "src": "WRNRewardPool.sol:12"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_START_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:15"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:16"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:17"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_PER_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:18"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_BOOST",
+            "type": "t_uint8",
+            "src": "WRNRewardPool.sol:19"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "totalMultiplier",
+            "type": "t_uint16",
+            "src": "WRNRewardPool.sol:21"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "wrnStats",
+            "type": "t_mapping(t_address,t_struct(WRNStats)1159_storage)",
+            "src": "WRNRewardPool.sol:34"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "userWRNRewards",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1164_storage))",
+            "src": "WRNRewardPool.sol:37"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "WRNRewardPool.sol:231"
+          }
+        ],
+        "types": {
+          "t_contract(ERC20PresetMinterPauserUpgradeSafe)2848": {
+            "label": "contract ERC20PresetMinterPauserUpgradeSafe"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          },
+          "t_mapping(t_address,t_struct(WRNStats)1159_storage)": {
+            "label": "mapping(address => struct WRNRewardPool.WRNStats)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1164_storage))": {
+            "label": "mapping(address => mapping(address => struct WRNRewardPool.UserWRNReward))"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_uint24": {
+            "label": "uint24"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(TokenStats)140_storage)": {
+            "label": "mapping(address => struct LockUpPool.TokenStats)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)119_storage))": {
+            "label": "mapping(address => mapping(address => struct LockUpPool.UserLockUp))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "abb6dd8af66e1314cf13510d14289bfaa3f2bb2397cf3659f4a2e1f2cd11acdc": {
+      "address": "0x9d45d05494eD6E8964a3818E506C8488a4FEBb82",
+      "txHash": "0xf7b6bb83e17136ea80d13a19ab67557aa1c08c47dac8a47b5fcf8f2d374c1b07",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "openzeppelin/Initializable.sol:26"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/Initializable.sol:61"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "openzeppelin/GSN/Context.sol:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "openzeppelin/access/Ownable.sol:19"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "openzeppelin/access/Ownable.sol:79"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PENALTY_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:16"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "PLATFORM_FEE_RATE",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:17"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "SECONDS_IN_MONTH",
+            "type": "t_uint256",
+            "src": "LockUpPool.sol:18"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "emergencyMode",
+            "type": "t_bool",
+            "src": "LockUpPool.sol:20"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "tokenStats",
+            "type": "t_mapping(t_address,t_struct(TokenStats)140_storage)",
+            "src": "LockUpPool.sol:54"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "pools",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "LockUpPool.sol:57"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "userLockUps",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)119_storage))",
+            "src": "LockUpPool.sol:60"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "fundAddress",
+            "type": "t_address",
+            "src": "LockUpPool.sol:63"
+          },
+          {
+            "contract": "LockUpPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "LockUpPool.sol:313"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "WRNToken",
+            "type": "t_contract(ERC20PresetMinterPauserUpgradeSafe)2869",
+            "src": "WRNRewardPool.sol:12"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_START_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:15"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:16"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_END_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:17"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_PER_BLOCK",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:18"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "REWARD_EARLY_BONUS_BOOST",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:19"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "totalMultiplier",
+            "type": "t_uint256",
+            "src": "WRNRewardPool.sol:21"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "wrnStats",
+            "type": "t_mapping(t_address,t_struct(WRNStats)1166_storage)",
+            "src": "WRNRewardPool.sol:34"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "userWRNRewards",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1171_storage))",
+            "src": "WRNRewardPool.sol:37"
+          },
+          {
+            "contract": "WRNRewardPool",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "WRNRewardPool.sol:239"
+          }
+        ],
+        "types": {
+          "t_contract(ERC20PresetMinterPauserUpgradeSafe)2869": {
+            "label": "contract ERC20PresetMinterPauserUpgradeSafe"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_struct(WRNStats)1166_storage)": {
+            "label": "mapping(address => struct WRNRewardPool.WRNStats)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserWRNReward)1171_storage))": {
+            "label": "mapping(address => mapping(address => struct WRNRewardPool.UserWRNReward))"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_struct(TokenStats)140_storage)": {
+            "label": "mapping(address => struct LockUpPool.TokenStats)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_struct(UserLockUp)119_storage))": {
+            "label": "mapping(address => mapping(address => struct LockUpPool.UserLockUp))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x8df2572B9e14239fEb2b01E0047b1f2D927f89F5",
+    "txHash": "0x49f613751992bdf70c0c95bc004ab32c21bcc1c7057af9c379a1139305745b15"
+  }
+}
